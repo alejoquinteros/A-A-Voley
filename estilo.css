@@ -63,64 +63,12 @@ body{
 
   /* Inicio */
 
-  .inicio-box{
-    display: grid;
-    height: 450px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    border: 4px solid #000000;
-    margin: 50px;
-    box-shadow: 0 8px 10px #000;
-    margin-top: 120PX;
-  }
-
-  .inicio-img{
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-
-  .box-img{
-    width: 370px;
-    top: 50%;
-    left: 50%;
-    margin: 25px 0 0 25px;
-  }
-
-  .box-text{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    text-align: center;
-    padding-top: 60px;
-    font-size: 25px;
-  }
-
-  .p-text{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    align-items: center;
-  }
-
-  .inicio-box button{
-    color: #000000;
-    background-color: #ffffff;
-    width: auto;
-    display: block;
-    border: 2px solid #000000;
-    transition-duration: 0.4s;
-    font-size: 16px;
-    text-align: center;
-    padding: 10px 24px;
-    border-radius: 2px;
-    margin:0px auto
-  }
-
-  .inicio-box button:hover{
-    background-color: #000;
-    color: #ffffff;
-    cursor: pointer;
-  }
+.inicio_texto{
+  color: #ffffff;
+  background-color: #000;
+  text-align: center;
+  margin-top: 100px;
+}
 
 
   /* Productos */
@@ -203,6 +151,7 @@ body{
     margin-right: 10px;
     }
 
+
     /* Inicio */
     
     .inicio-box{
@@ -212,8 +161,8 @@ body{
     }
     
     .box-img{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
         display: grid;
     }
 
